@@ -18,7 +18,7 @@ body{
     margin: 50px auto;
     border-radius: 8px;
     position: relative;
-    max-width: 100%;
+    min-width: 400px;
 }
 /*                   intro to recipe style */
 /*                  image styling                  */
