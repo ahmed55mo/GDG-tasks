@@ -1,7 +1,5 @@
 # Coffee Shop page
 
-![Design preview for the Coffee Shop page coding challenge](/task.png)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
