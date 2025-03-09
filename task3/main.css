@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body{
+    background-color: rgb(31, 31, 31);
+}
+
+.head1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto;
+    width: 25%;
+    margin-top: 120px;
+    text-align: center;
+    min-width: 200px;
+}
+
+.shop-intro{
+    padding: 5px;
+    text-align: center;
+    width: 31%;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(113, 113, 113);
+    font-family: sans-serif;
+    min-width: 350px;
+}
+
+.cards{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.card{
+    background-color: rgba(88, 87, 99, 0.619);
+    width: 300px;
+    min-width: 300px;
+    border-radius: 20px;
+    transition-duration: 300ms;
+    margin: 30px;
+}
+
+.img-holder{
+    width: 86%;
+    align-items: center;
+    margin: 5px auto;
+    border-radius: 15px;
+    position: relative;
+}
+
+.img-holder img{
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: 300ms;
+}
+
+.card:hover{
+    background-color: rgb(149, 148, 148);
+}
+
+.card:hover img{
+    transform: scale(1.02);
+}
+
+.status{
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.coffee-info{
+    position: relative;
+    width: 86%;
+    margin: 6px auto;
+    height: 50px;
+}
+
+.name , .rate , .votes{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    position: absolute;
+}
+
+.price{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    background-color: rgb(133, 209, 183);
+    padding: 3px;
+    top: 5px;
+    right: 7px;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.name{
+    top: 5px;
+    left: 7px;
+}
+
+.rate{
+    bottom: 5px;
+    left: 7px;
+}
+
+.votes{
+    bottom: 5px;
+    right: 7px;
+}
