@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start bootstrap</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Satisfy&family=Sevillana&family=Young+Serif&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Satisfy&family=Sevillana&family=Vesper+Libre:wght@400;500;700;900&family=Young+Serif&display=swap');
+    </style>
+    <link rel="icon" href="/assets/assets/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-bootstrap bg-md-dark w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/assets/img/navbar-logo.svg" alt="Start Bootstrap" width="150" class="ms-lg-5 ms-md-3 ms-sm-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="text-secondary">MENU</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav me-5">
+            <li class="nav-item">
+              <a class="nav-link mx-4 text-secondary" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 text-secondary" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 text-secondary" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 text-secondary" href="#team">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4 text-secondary" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start hero -->
+    <section class="hero d-flex flex-column">
+      <center>
+        <p class="hero-wel text-capitalize">
+          Welcome to our studio!
+        </p>
+        <h1 class="text-uppercase hero-head1 fs-1 text-wrap">it's nice to meet you</h1>
+        <button type="button" class="btn btn-warning text-uppercase text-light mt-5 p-3 px-5">tell me more</button>
+      </center>
+    </section>
+    <!-- end hero -->
+
+    <!-- start services -->
+    <section id="services">
+      <h4 class="fw-bold mt-5 mb-2 text-center ">
+        SERVICES
+      </h4>
+      <p class="text-center services-p text-secondary">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+      <div class="container-fluid">
+        <div class="row"> 
+
+          <div class="col-md-4 col-sm-12 p-3">
+            <div class="bg-warning img-container rounded-circle">
+              <i class="fa-solid fa-cart-shopping mx-auto" style="color: #ffffff;width: 50px; height: 50px;"></i>
+            </div>
+            <h4 class="fw-bold text-center mt-1 mb-3">E-Commerce</h4>
+            <p class="w-75 text-center mx-auto text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, quod! Molestiae totam doloremque libero quod non ipsa ratione assumenda ex!</p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 p-3">
+            <div class="bg-warning img-container rounded-circle">
+              <i class="fa-solid fa-laptop mx-auto" style="color: #ffffff;width: 50px; height: 50px;"></i>
+            </div>
+            <h4 class="fw-bold text-center mt-1 mb-3">Responsive Design</h4>
+            <p class="w-75 text-center mx-auto text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, quod! Molestiae totam doloremque libero quod non ipsa ratione assumenda ex!</p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 p-3">
+            <div class="bg-warning img-container rounded-circle">
+              <i class="fa-solid fa-lock mx-auto" style="color: #ffffff;width: 50px; height: 50px;"></i>
+            </div>
+            <h4 class="fw-bold text-center mt-1 mb-3">Web Security</h4>
+            <p class="w-75 text-center mx-auto text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, quod! Molestiae totam doloremque libero quod non ipsa ratione assumenda ex!</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end services -->
+
+    <!-- start portfolio -->
+    <section id="portfolio" class="p-5">
+      <h4 class="fw-bold mt-5 mb-2 text-center ">
+        PORTFOLIO
+      </h4>
+      <p class="text-center services-p mb-3 text-secondary">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- card1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="/assets/assets/img/portfolio/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="fw-bold text-center mt-1 mb-2">Threads</h5>
+                <p class="text-center portfolio-p text-secondary">Illustration</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="/assets/assets/img/portfolio/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="fw-bold text-center mt-1 mb-2">Threads</h5>
+                <p class="text-center portfolio-p text-secondary">Illustration</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="/assets/assets/img/portfolio/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="fw-bold text-center mt-1 mb-2">Threads</h5>
+                <p class="text-center portfolio-p text-secondary">Illustration</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="/assets/assets/img/portfolio/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="fw-bold text-center mt-1 mb-2">Threads</h5>
+                <p class="text-center portfolio-p text-secondary">Illustration</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card5 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="/assets/assets/img/portfolio/5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="fw-bold text-center mt-1 mb-2">Threads</h5>
+                <p class="text-center portfolio-p text-secondary">Illustration</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card6 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="/assets/assets/img/portfolio/6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="fw-bold text-center mt-1 mb-2">Threads</h5>
+                <p class="text-center portfolio-p text-secondary">Illustration</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- start about -->
+    <section id="about" class="p-5">
+      <h4 class="fw-bold mt-5 mb-2 text-center ">
+        ABOUT
+      </h4>
+      <p class="text-center services-p mb-3 text-secondary">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+
+    </section>
+    <!-- end about -->
+
+    <!-- start team -->
+    <section id="team" class="p-5">
+      <h4 class="fw-bold mt-5 mb-2 text-center text-uppercase">
+        our amazing team
+      </h4>
+      <p class="text-center services-p mb-3 text-secondary">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+      <div class="container-fluid">
+        <div class="row"> 
+
+          <div class="col-lg-4 col-md-12 p-3">
+            <div class="bg-body-secondary person-container rounded-circle">
+              <img src="/assets/assets/img/team/1.jpg" alt="person1" class="rounded-circle" style="width: 100px;">
+            </div>
+            <h4 class="fw-bold text-center mt-3 mb-1 text-capitalize">parveen anand</h4>
+            <p class="w-75 text-center mx-auto text-secondary text-capitalize person-job">lead designer</p>
+            <div class="d-flex w-50 mx-auto">
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-twitter mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-facebook-f mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-linkedin-in mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 p-3">
+            <div class="bg-body-secondary person-container rounded-circle">
+              <img src="/assets/assets/img/team/2.jpg" alt="person1" class="rounded-circle" style="width: 100px;">
+            </div>
+            <h4 class="fw-bold text-center mt-3 mb-1 text-capitalize">diana petersen</h4>
+            <p class="w-75 text-center mx-auto text-secondary text-capitalize person-job">lead marketer</p>
+            <div class="d-flex w-50 mx-auto">
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-twitter mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-facebook-f mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-linkedin-in mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 p-3">
+            <div class="bg-body-secondary person-container rounded-circle">
+              <img src="/assets/assets/img/team/3.jpg" alt="person1" class="rounded-circle" style="width: 100px;">
+            </div>
+            <h4 class="fw-bold text-center mt-3 mb-1 text-capitalize">larry parker</h4>
+            <p class="w-75 text-center mx-auto text-secondary text-capitalize person-job">lead developer</p>
+            <div class="d-flex w-50 mx-auto">
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-twitter mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-facebook-f mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+              <div class="bg-dark social-container rounded-circle">
+                <i class="fa-brands fa-linkedin-in mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="w-75  text-center mx-auto mt-3 text-secondary person-job">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo est nam, delectus fugiat omnis blanditiis ullam iste ipsa adipisci dolorum quia deserunt cupiditate perspiciatis fuga dicta, voluptates ad nulla!</p>
+        </div>
+      </div>
+    </section>
+    <!-- end team -->
+
+    <!-- start companies -->
+    <section class="container-fluid p-5">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-12 text-center mt-3">
+          <img src="/assets/assets/img/logos/microsoft.svg" alt="microsoft" style="width: 10rem;">
+        </div>
+
+        <div class="col-md-3 col-sm-12 text-center mt-3">
+          <img src="/assets/assets/img/logos/google.svg" alt="google" style="width: 8rem;">
+        </div>
+
+        <div class="col-md-3 col-sm-12 text-center mt-3">
+          <img src="/assets/assets/img/logos/facebook.svg" alt="facebook" style="width: 10rem;">
+        </div>
+
+        <div class="col-md-3 col-sm-12 text-center mt-3">
+          <img src="/assets/assets/img/logos/ibm.svg" alt="ibm" style="width: 8rem;">
+        </div>
+
+      </div>
+    </section>
+    <!-- end companies -->
+
+    <!-- start contact -->
+    <section id="contact" class="contact d-flex flex-column bg-dark p-5">
+      <center>
+        <h4 class="fw-bold mt-5 mb-2 text-center text-uppercase text-light">
+          contact us
+        </h4>
+        <p class="text-center services-p mb-3 text-secondary">
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="d-flex flex-column flex-md-row w-75 justify-content-center">
+          <div class="d-flex flex-column" style="width: 100%;">
+            <div class="mb-3 mx-auto" style="width: 95%;">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control p-3" id="exampleFormControlInput1" placeholder="Your Name*">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control p-3" id="exampleFormControlInput1" placeholder="Your Email*">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control p-3" id="exampleFormControlInput1" placeholder="Your Phone*">
+            </div>
+          </div>
+          <div class="mb-3" style="width: 100%;">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+          </div>
+        </div>
+        <button type="button" class="btn btn-warning text-uppercase text-light mt-5 p-3 px-5">send message</button>
+      </center>
+    </section>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer class="d-flex flex-column flex-lg-row p-4 mt-3">
+      <p class="ms-5 text-center">Copyright &copy; Your Website 2025</p>
+      <div class="d-flex gap-3 mx-auto mb-2">
+        <div class="bg-dark social-container rounded-circle">
+          <i class="fa-brands fa-twitter mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+        </div>
+        <div class="bg-dark social-container rounded-circle">
+          <i class="fa-brands fa-facebook-f mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+        </div>
+        <div class="bg-dark social-container rounded-circle">
+          <i class="fa-brands fa-linkedin-in mx-auto" style="color: #ffffff;width: 20px; height: 20px;"></i>
+        </div>
+      </div>
+      <div class="d-flex mx-auto mx-lg-0">
+        <a href="#" class="text-capitalize mx-3 foot-link text-dark text-center">privacy policy</a>
+        <a href="#" class="foot-link text-dark text-center">Terms of Use</a>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/all.js"></script>
+</body>
+</html>

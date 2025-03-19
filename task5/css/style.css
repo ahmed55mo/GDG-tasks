@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.nav-bootstrap{
+    position: fixed;
+}
+
+.start-boot{
+    font-family: "Satisfy", cursive;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-wel{
+    margin-top: 250px;
+    font-family: "Vesper Libre", serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.hero-head1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+.services-p{
+    font-family: "Vesper Libre", serif;
+    font-style: italic;
+}
+
+.img-container{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#portfolio , #team{
+    background-color: rgb(221, 221, 221);
+}
+
+.portfolio-p{
+    font-family: "Vesper Libre", serif;
+    font-style: italic;
+}
+
+.person-container{
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-job{
+    font-family: "Vesper Libre", serif;
+}
+
+.social-container{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.foot-link{
+    text-decoration: none;
+}
