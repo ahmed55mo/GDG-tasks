@@ -59,6 +59,109 @@
     font-style: italic;
 }
 
+.about-p{
+    font-family: "Vesper Libre", serif;
+}
+
+.img-in-card{
+    transition-duration: 350ms;
+}
+
+.img-in-card:hover{
+    opacity: 0.10;
+    cursor: pointer;
+}
+
+.about-container{
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-container{
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.cont{
+    position: relative;
+    width: 50%;
+}
+
+.text-box{
+    position: relative;
+}
+
+.left-cont{
+    left: 0;
+}
+
+.right-cont{
+    left: 50%;
+}
+
+.cont .about-container{
+    position: absolute;
+    right: -60px;
+    top: 32px;
+    z-index: 2;
+}
+
+.right-cont .about-container{
+    left: -60px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: rgb(207, 207, 207);
+    top: 35px;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+@media screen and (max-width:600px) {
+    .about{
+        margin-bottom: 50px;
+    }
+
+    .timeline{
+        margin: 50px auto;
+    }
+
+    .timeline::after{
+        left: 31px;
+    }
+
+    .cont{
+        width: 100%;
+    }
+
+    .right-cont{
+        left: 0;
+    }
+
+    .left-cont .about-container , .right-cont .about-container , .alone-cont{
+        left: -32px;
+    }
+}
+
 .person-container{
     width: 110px;
     height: 110px;
@@ -80,6 +183,14 @@
     align-items: center;
 }
 
+.socials{
+    transition-duration: 350ms;
+}
+
+.socials:hover{
+    opacity: 0.5;
+}
+
 .contact{
     width: 100%;
     height: 100%;
@@ -91,4 +202,10 @@
 
 .foot-link{
     text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .boot-nav{
+        --bs-bg-opacity: .0;
+    }
 }
