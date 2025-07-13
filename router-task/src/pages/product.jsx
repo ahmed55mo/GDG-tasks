@@ -41,7 +41,7 @@ export default function Product(){
                             <div className="p-4">
                                 <strong className="text-lg text-blue-900 ">{product.title}</strong><br/>
                                 <div className="flex my-4">
-                                    <img src="/src/assets/location.svg" alt="location" />
+                                    <img src="/public/location.svg" alt="location" />
                                     <span className="text-gray-500 p-1 ml-1">Southwestern Ontario, Ontario, Canada</span>
                                 </div>
                                 
